@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import { SearchInput } from "../molecules/SearchInput";
 import { UserCard } from "../organisms/UserCard";
-
 const users = [...Array(10).keys()].map((val) => {
   return {
     id: val,
